@@ -20,7 +20,7 @@ MIAO目前仅支持 Java 和 Python，后续会加入对其他语言（如Golang
 ## 怎么使用？
 **本工具尚未全部开发完成，目前仅能使用部分主要功能，其余功能的实现计划详见后文「规划路线图」章节**
 
-（Python 版见：https://github.com/TheColdVoid/MIAO-python）
+（Python 版见：https://github.com/TheColdVoid/MIAO-python ）
 ### Java 版：
 **MIAO 仅支持在Java 1.8及以上的版本中运行**<br>
 pom.xml（Maven）中加入：
