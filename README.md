@@ -203,10 +203,10 @@ MIAO 并不是一个Web框架，其关注点与Web框架有着很大差异，两
 Demo 链接
 ### 使用场景示例（Python 版）：小工具合集
 ![](docs/44D4574C-3DAD-4D8A-94B2-CBB10BA6B60E.png)
-[代码链接](https://github.com/TheColdVoid/MIAO-example/blob/master/python/example_academic.py)
+[代码链接](https://github.com/TheColdVoid/MIAO-example/blob/master/python/example_tool.py)
 ### 使用场景示例（Python 版）：学术成果展示
 ![](docs/42727D94-5BA0-4FE5-B723-D5A284B19FD6.png)
-[代码链接](https://github.com/TheColdVoid/MIAO-example/blob/master/python/example_tool.py)
+[代码链接](https://github.com/TheColdVoid/MIAO-example/blob/master/python/example_academic.py)
 ### 使用场景示例（Python 版）：物联网
 ![](docs/46B0AAF5-FB21-40E9-AF6A-E94E94C06F7A.png)
 [代码链接](https://github.com/TheColdVoid/MIAO-example/blob/master/python/example_respi.py)
