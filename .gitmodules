@@ -1,0 +1,9 @@
+[submodule "MIAO-python"]
+	path = MIAO-python
+	url = https://github.com/TheColdVoid/MIAO-python
+[submodule "MIAO-frontend"]
+	path = MIAO-frontend
+	url = https://github.com/TheColdVoid/MIAO-frontend
+[submodule "MIAO-java"]
+	path = MIAO-java
+	url = https://github.com/TheColdVoid/MIAO-java
