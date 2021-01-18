@@ -252,6 +252,6 @@ Demo 链接
 
 如果代码运行中遇到了什么问题，或者您发现了 Bug，也欢迎您通过 Issue 或者直接联系我来进行反馈，我会尽快给予答复喵。
 
-联系方式：
-thevoid2333@gmail.com
+联系方式：<br>
+thevoid2333@gmail.com <br> 
 或者直接提 Issue 喵~
