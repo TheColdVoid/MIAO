@@ -52,11 +52,11 @@ public static void main(String[] args) {
 _（ start()函数将在执行时阻塞，因此您需将此行代码放在 main 中您的其他代码的后面，或者开一个新的线程供本工具提供服务。）_
 
 就可以自动生成这样的临时 Demo：
-![](docs/2BDC99A1-FDB7-4D7F-B878-FEF673A309F7.png)
+![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/2BDC99A1-FDB7-4D7F-B878-FEF673A309F7.png)
 
 输入参数后，点击「执行」即可执行，并获得返回值：
 
-![](docs/72C26721-DC73-495F-B3A7-ACC79921898A.png)
+![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/72C26721-DC73-495F-B3A7-ACC79921898A.png)
 
 ### 可视化结果
 执行结果可以以「表格」的形式进行可视化（后续会增加其他的可视化形式选项，如「图表」「图片」「树」等）：
@@ -81,7 +81,7 @@ public static List<Cat> getCatInfo() {
 }
 ```
 即可得到这样的「表格」形式的可视化结果：
-![](docs/213F6DCC-8AD4-46EB-BEEA-89FB1A7B0E1F.png)
+![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/213F6DCC-8AD4-46EB-BEEA-89FB1A7B0E1F.png)
 （需要注意的是，**返回值的类中必须具有要显示的属性 Getter 方法**（可以用 lombok 等工具自动生成，或者手动编写），否则返回结果将无法正确地被序列化）
 
 您也可以返回 List<Map<K,V>> 类型的结果，也一样可以获得和上面一样的可视化形式的返回结果，例如：
@@ -116,7 +116,7 @@ public static List<String> voice() {
 }
 ```
 可以生成如下的界面：
-![](docs/A0B523BD-BD0C-4E61-B821-4CF896EC960F.png)
+![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/A0B523BD-BD0C-4E61-B821-4CF896EC960F.png)
 
 对于上述几种情况，您都可以手动指定表格中每行的元素类型，使 MIAO 在函数返回值为空表时，能正确地显示表头：
 ``` java
@@ -128,7 +128,7 @@ public static List<Cat> getCatInfo() {
     return Arrays.asList();
 }
 ```
-![](docs/1A24640B-E87F-4F82-9BEB-6F7D1790CD90.png)
+![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/1A24640B-E87F-4F82-9BEB-6F7D1790CD90.png)
 （由于 Java 中的泛型类型擦除机制，MIAO 无法在通过运行期反射来获取返回值类型的泛型参数，因此无法根据返回值类型来自动推断表头，只能用这种方式来实现这个功能）
 
 您也可以手动指定表头中的列名：
@@ -140,7 +140,7 @@ public static List<Cat> getCatInfo() {
 public static List<Map> getCatInfo() {
 ```
 这个功能也一样可以被用来限制或筛选表格中要被显示的列：
-![](docs/B37E9EB6-6594-4115-BA62-B86566057C17.png)
+![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/B37E9EB6-6594-4115-BA62-B86566057C17.png)
 
 
 
@@ -158,13 +158,13 @@ public static double add(
     return opr1 + opr2;
 }
 ```
-![](docs/F93D29A9-ABF7-4AD9-83F1-FF1972D8793C.png)
+![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/F93D29A9-ABF7-4AD9-83F1-FF1972D8793C.png)
 
 上方的标题也可以通过参数来进行修改：
 ``` java
 MIAO.start("Cat Ear Switch Controller");
 ```
-![](docs/4C9314FA-D50A-4DC9-8D5A-285070BF659B.png)
+![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/4C9314FA-D50A-4DC9-8D5A-285070BF659B.png)
 
 将来会增加更多的定制项（例如参数的选择方式、配色等等）
 
@@ -174,7 +174,7 @@ PS:如果您使用的是 Gradle，请在 repositories 中加入 mavenCentral()�
 
 **PPPS:如果您没有手动指定参数的名称而是希望界面自动获取参数的名字的话，您需要在编译参数中加入**`-parameters`**参数，否则javac在编译代码时会自动抹除参数名称，本工具就无法读取参数名称以在界面中显示了（只能显示 arg0,arg1,arg2….）**
 **以IDEA为例：**
-![](docs/FF31CFDF-2B76-42E1-8D1F-16E94E4B8A33.png)
+![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/FF31CFDF-2B76-42E1-8D1F-16E94E4B8A33.png)
 
 
 PPPPS:由于本工具**尚未全部开发完成**，现在暂时函数参数和返回值只支持基本数据类型，可视化形式只支持「表格」，后续将会加入对「图片」「图表」「复杂对象」「文件」「视频」「函数图像」等的支持，详见「规划路线图」章节
@@ -201,17 +201,17 @@ MIAO 并不是一个Web框架，其关注点与Web框架有着很大差异，两
 如果您有更好的使用示例，欢迎提 PR 或直接联系我，我将会将其加入本章节，谢谢。
 
 ### 使用场景示例（Java 版）：依赖格式 Maven 转 Gradle
-![](docs/02403AF1-681C-40F2-AC9A-B2D7026F9C32.png)
+![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/02403AF1-681C-40F2-AC9A-B2D7026F9C32.png)
 [代码链接](https://github.com/TheColdVoid/MIAO-example/tree/master/java)
 Demo 链接
 ### 使用场景示例（Python 版）：小工具合集
-![](docs/44D4574C-3DAD-4D8A-94B2-CBB10BA6B60E.png)
+![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/44D4574C-3DAD-4D8A-94B2-CBB10BA6B60E.png)
 [代码链接](https://github.com/TheColdVoid/MIAO-example/blob/master/python/example_tool.py)
 ### 使用场景示例（Python 版）：学术成果展示
-![](docs/42727D94-5BA0-4FE5-B723-D5A284B19FD6.png)
+![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/42727D94-5BA0-4FE5-B723-D5A284B19FD6.png)
 [代码链接](https://github.com/TheColdVoid/MIAO-example/blob/master/python/example_academic.py)
 ### 使用场景示例（Python 版）：物联网
-![](docs/46B0AAF5-FB21-40E9-AF6A-E94E94C06F7A.png)
+![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/46B0AAF5-FB21-40E9-AF6A-E94E94C06F7A.png)
 [代码链接](https://github.com/TheColdVoid/MIAO-example/blob/master/python/example_respi.py)
 
 ## 规划路线图
