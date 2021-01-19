@@ -203,16 +203,19 @@ MIAO 并不是一个Web框架，其关注点与Web框架有着很大差异，两
 ### 使用场景示例（Java 版）：依赖格式 Maven 转 Gradle
 ![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/02403AF1-681C-40F2-AC9A-B2D7026F9C32.png)
 [代码链接](https://github.com/TheColdVoid/MIAO-example/tree/master/java)
-Demo 链接
+[Demo 链接](http://49.232.218.246:2333/)
 ### 使用场景示例（Python 版）：小工具合集
 ![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/44D4574C-3DAD-4D8A-94B2-CBB10BA6B60E.png)
 [代码链接](https://github.com/TheColdVoid/MIAO-example/blob/master/python/example_tool.py)
+[Demo 链接](http://49.232.218.246:2334/)
 ### 使用场景示例（Python 版）：学术成果展示
 ![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/42727D94-5BA0-4FE5-B723-D5A284B19FD6.png)
 [代码链接](https://github.com/TheColdVoid/MIAO-example/blob/master/python/example_academic.py)
+[Demo 链接](http://49.232.218.246:2336/)
 ### 使用场景示例（Python 版）：物联网
 ![](https://asd90s0s-1254257014.cos.ap-beijing.myqcloud.com/46B0AAF5-FB21-40E9-AF6A-E94E94C06F7A.png)
 [代码链接](https://github.com/TheColdVoid/MIAO-example/blob/master/python/example_respi.py)
+[Demo 链接](http://49.232.218.246:2335/)
 
 ## 规划路线图
 以下功能将逐步被加进本工具中。如果您对本项目有兴趣，也欢迎您通过fork和PR来为本项目贡献代码。
