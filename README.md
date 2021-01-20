@@ -158,7 +158,7 @@ public static double add(
     return opr1 + opr2;
 }
 ```
-![](docs/F93D29A9-ABF7-4AD9-83F1-FF1972D8793C.png)
+![](docs/AA3665BB-B859-4C36-A779-87E32CEEE426.png)
 
 上方的标题也可以通过参数来进行修改：
 ``` java
